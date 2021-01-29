@@ -1,0 +1,81 @@
+.twt--header a.brand>* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/** report list */
+
+.twt-filter .w3-bar {
+    margin-bottom: 20px;
+}
+
+.twt-filter .w3-bar>*:not(:last-child) {
+    margin-right: 10px;
+}
+
+.twt-pagination {
+    margin-top: 20px;
+}
+
+.filter-bar {
+    display: flex !important; 
+}
+
+.pagination {
+    list-style-type: none;
+  }
+  
+  .pagination-item {
+    display: inline-block;
+  }
+  
+  .active {
+    color: #fff!important;
+    background-color: #4CAF50!important;
+    border: #383838 1px solid !important;
+  }
+
+@media (max-width: 992px) {
+    .twt-filter .w3-bar .w3-input {
+        margin-bottom: 10px;
+        width: auto;
+        display: inline-block;
+        height: 38px;
+    }
+}
+
+@media (min-width: 993px) {
+    .twt-filter .w3-bar {
+        display: flex;
+    }
+    .twt-filter .w3-bar>button {
+        min-width: 90px;
+    }
+}
+
+
+/** login */
+
+.login-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+/** calendar */
+
+.twt-week {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/** available time */
+
+.twt-available:before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
